@@ -4,7 +4,7 @@ module.exports = () => {
     const BotController = require("../controller/bot.controller")
     const DatabaseController = require("../controller/database.controller")
     const dotenv = require("dotenv")
-    const token = "7498518927:AAGS9os8pEzrvnjgPvuRSYMOgSG9WRdyDg4"
+    const token = "748pEzrvnjgPvuRSYMOgSG9WRdyDg4"
     const bot = new TGBot(token, {
         polling: true, request: {
             agentOptions: {
